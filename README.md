@@ -16,6 +16,7 @@ The way it <i>tries</i> to go about its business is by:
 
 known limits:
 - can not do -(someexpression)
+- can not parse things that have multiple operands after eachother, like  "5 * + 3" 
 - sometimes it'll fuck up order of operations compared to google search engine calculator
 
 known good things:
